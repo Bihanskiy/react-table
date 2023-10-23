@@ -26,7 +26,7 @@ const Table = React.forwardRef<HTMLTableElement, TableProps>(
     return (
       <div className="table-wrapper">
         <h4 className="table-title">
-          Refrrrals - 345
+          {title}
         </h4>
         <div className="table-container">
           <table
