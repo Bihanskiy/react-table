@@ -1,0 +1,51 @@
+.table {
+  display: table;
+  position: relative;
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 1rem;
+  text-indent: 0;
+  border-color: inherit;
+  border-collapse: collapse;
+}
+
+.table-container {
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+.table-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.table-head {
+  white-space: nowrap;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.table-head tr,
+.table-body tr {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+th {
+  text-align: start;
+  padding-bottom: 0.75rem;
+}
+
+td {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+
+  vertical-align: text-top;
+}
+
+td:not(:last-child) {
+  padding-right: 2rem;
+}
